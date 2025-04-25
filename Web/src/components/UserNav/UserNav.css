@@ -1,0 +1,31 @@
+.UserNav button {
+    background-color: transparent;
+    padding: 7px 16px;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.UserNav .button-group {
+    gap:0px;
+}
+
+.UserNav button.selected {
+    color: #3483FA;
+    border-bottom: 1px solid #3483FA;
+}
+
+.UserNav .products{
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 16px;
+        padding-top: 16px;
+        width:1,000px;
+        height: 1,432.48px;
+        max-width: 1000px;
+        padding: 16px 0px 0px 0px;
+        gap: 16px;
+}

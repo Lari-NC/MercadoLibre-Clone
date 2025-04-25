@@ -1,0 +1,102 @@
+.ProductQuestionsWithoutQ {
+    width: 1000px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+.ProductQuestionsWithoutQ h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 18px;
+    text-align: left;
+}
+
+.ProductQuestionsWithoutQ .horizontal-line {
+    width: 970px;
+    height: 1px;
+    background-color: #00000040;
+    margin: 12px 0 10px 0;
+}
+
+.ProductQuestionsWithoutQ .q-box .your-q {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding-right: 13px;
+}
+
+.ProductQuestionsWithoutQ .q-box button {
+    align-self: flex-end;
+}
+
+.ProductQuestionsWithoutQ .q-box .qs .lq {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #000000E5;
+}
+
+.ProductQuestionsWithoutQ .q-box .qs .qs-box {
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductQuestionsWithoutQ .q-box .qs .qs-box .question-block {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+    gap:15px;
+}
+
+.ProductQuestionsWithoutQ .q-box .qs .qs-box .question-block .nq {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #000;
+    text-align: left;
+}
+.ProductQuestionsWithoutQ .q-box .qs .qs-box .question-block .response {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    color: #000;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.ProductQuestionsWithoutQ .q-box .qs .qs-box .question-block .response .arrow-response {
+    margin-right: 20px;
+}
+
+.ProductQuestionsWithoutQ .q-box .qs .qs-box .question-block .answer-question-product {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    
+}
+
+.ProductQuestionsWithoutQ .q-box .qs .qs-box .question-block .answer-question-product .input-answer{
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    width: 712px;
+    height: 39px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-right: 60px; 
+}
+
+.ProductQuestionsWithoutQ .q-box .qs .qs-box .question-block .answer-question-product .input-answer:focus {
+    outline: none;
+}

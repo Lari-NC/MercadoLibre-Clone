@@ -1,0 +1,11 @@
+.products-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 16px;
+        padding-top: 16px;
+        width:1,000px;
+        height: 1,432.48px;
+        max-width: 1000px;
+        padding: 16px 0px 0px 0px;
+        gap: 16px;
+}

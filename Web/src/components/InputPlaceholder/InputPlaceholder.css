@@ -1,0 +1,23 @@
+.InputPlaceholder {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    width: 381px;
+    height: 32px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-right: 40px;
+}
+
+.InputPlaceholder:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

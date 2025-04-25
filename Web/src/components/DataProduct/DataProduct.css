@@ -1,0 +1,59 @@
+.DataProduct { 
+    background-color: #fff;
+    width: 274px;
+    height: 81.75px;
+    display: flex;
+    align-items: center;
+}
+
+.Image { 
+    width: 100px;
+    height: 81.75px;
+}
+
+.Image img {
+    width: 100px;
+    height: 81.75px;
+    object-fit: contain;
+}
+
+.Info {   
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.productName {
+    height: 18px;
+    gap: 0px;
+    opacity: 0px; 
+    margin: 0; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+} 
+
+.owner {
+    margin: 0; 
+    color : #666666;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+}
+
+.Info button { 
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #3483FA;
+    border: none;
+    background: transparent;
+    width: 51px;
+    height: 18px;
+    padding: 0;
+}

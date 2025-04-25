@@ -1,0 +1,16 @@
+.InputValor {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    width: 417.5px;
+    height: 32px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    padding-right: 40px; 
+    margin-top: 28px;
+    margin-left: 37px;
+    margin-right: 3px;
+}
+
+.InputValor:focus {
+    outline: none;
+}

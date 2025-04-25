@@ -1,0 +1,23 @@
+.Avatar {
+    height: 64px;
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 9px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.avatar-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.avatar-name {
+    white-space: nowrap;
+}

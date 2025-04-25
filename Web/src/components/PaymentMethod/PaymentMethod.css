@@ -1,0 +1,44 @@
+.paymentMethod {
+    width: 576px;  
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #00000024;
+    padding-top: 24px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+}
+
+.paymentMethodTitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px; 
+    margin: 0 0 12px 0; 
+    text-align: left;
+    color: #333333;
+    border-bottom: 1px solid #0000003d;
+    padding-bottom: 20px; 
+}
+
+.inputsData {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 24px
+
+}
+
+.buttonShop {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px; 
+}
+
+.buttonShop button { 
+    width: 100%; 
+    font-size: 14x; 
+    text-align: center;
+    background-color: #3483FA;
+    color: white;
+    font-weight: 600;
+}

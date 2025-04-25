@@ -1,0 +1,26 @@
+.button {
+  width: Hug (80px)px;
+  height: Hug (34px)px;
+  top: 20px;
+  left: 20px;
+  padding: 8px 16px 8px 16px;
+  gap: 16px;
+  border-radius: 8px;
+  opacity: 0px;
+  background:#3483FA;
+  color: #FFFFFF;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  border : none
+}
+
+.button:hover {
+    width: Hug (81px)px;
+    top: 74px;
+    background: #26559C;
+    font-weight: 600;
+}

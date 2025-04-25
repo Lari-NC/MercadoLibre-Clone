@@ -1,0 +1,7 @@
+.ProductHorizontal {
+    width: 1,000px;
+    height: 436px;
+    justify-content: space-between;
+    display: flex;
+    gap: 16px;
+}

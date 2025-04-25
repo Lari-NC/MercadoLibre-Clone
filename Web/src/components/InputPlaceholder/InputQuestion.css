@@ -1,0 +1,23 @@
+.InputQuestion {
+    width: 936px;
+    height: 104px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 0px #00000026;
+    margin-left: 16px;
+    margin-top: 16px;
+    border: none;
+    line-height: 1.5; 
+    resize: none;         
+    overflow: auto;       
+}
+
+.InputQuestion::placeholder {
+    text-align: left;
+    vertical-align: top;
+}
+
+.InputQuestion:focus {
+    outline: none;
+}

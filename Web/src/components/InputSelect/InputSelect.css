@@ -1,0 +1,64 @@
+.InputSelect .chevronDown {
+  width: 12px;
+  height: 7.41px;
+}
+
+.InputSelect {
+  position: relative;
+  width: 381px;
+  height: 32px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+.InputSelect .input-with-dropdown {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+
+.InputSelect .dropdown-button {
+  width: 35px;
+  background-color: transparent;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-left: 1px solid rgba(0, 0, 0, 0.6);
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.InputSelect .options-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1000;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.InputSelect .options-list li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.InputSelect .options-list li:hover {
+  background-color: #f0f0f0;
+}

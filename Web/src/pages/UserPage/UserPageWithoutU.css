@@ -1,0 +1,11 @@
+.avatar {
+    width: 1000px;
+    height: 64px;
+}
+
+.user-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    padding-top: 16px;
+}

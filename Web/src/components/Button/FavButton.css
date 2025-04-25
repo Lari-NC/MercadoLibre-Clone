@@ -1,0 +1,17 @@
+.FavButton {
+    width: 48px;
+    height: 48px;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 50%; 
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.FavButton img {
+    width: 32px;
+    height: 32px;
+}

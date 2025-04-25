@@ -1,0 +1,136 @@
+.ProductInfo {
+    width: 384px;
+    height: auto;
+    gap: 16px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.ProductInfo .info {
+    width: 384px;
+    height: 278px;
+    padding: 24px 16px 24px 16px;
+    padding-top: 24px;
+    gap: 4px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    position: relative;
+}
+
+.ProductInfo .info .FavButton {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+}
+
+.ProductInfo .info .payment-info {
+    padding-top: 12px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.ProductInfo .info .title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0; 
+    text-align: left;
+    color: #000000;
+}
+
+.ProductInfo .info .owner {
+    margin: 0; 
+    color : #666666;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left; 
+}
+
+.ProductInfo .info .payment-info .price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 18px;
+    text-align: left;
+}
+
+.ProductInfo .info .payment-info .installments {
+    font-size: 14px;
+    font-weight: 300;
+    color:#00A650;
+    line-height: 18px;
+    text-align: left;
+}
+
+.ProductInfo .info .shipping {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #000000E5;
+}
+
+.ProductInfo .info .product-stock {
+    gap: 4px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.ProductInfo .info .product-stock .s-disp {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 18px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.ProductInfo .info .product-stock .cant-disp {
+    font-size: 13px;
+    font-weight: 300;
+    color: #666666;
+    line-height: 18px;
+    text-align: left;
+    margin: 0;
+}
+
+.ProductInfo .info .product-quantity {
+    margin-top: 16px;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.ProductInfo .info .product-quantity p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 18px;
+    margin: 0;
+}
+
+.ProductInfo .buttons button {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.ProductInfo .info .owner p {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ProductInfo .info a {
+    text-decoration: none;
+    color: inherit;
+}

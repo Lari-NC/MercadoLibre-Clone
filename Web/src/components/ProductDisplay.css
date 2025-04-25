@@ -1,0 +1,9 @@
+.producto  {
+    text-decoration: none;
+    color: inherit;
+}
+
+.producto :hover {
+    text-decoration: none;
+    color: inherit;
+}

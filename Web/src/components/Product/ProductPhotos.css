@@ -1,0 +1,45 @@
+.ProductPhotos {
+    width: 600px;
+    height: 436px;
+    padding: 16px;
+    padding-top: 8px;
+    gap: 24px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProductPhotos .left {
+    width: 80px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ProductPhotos .left img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #00000040;
+    border-radius: 1px;
+    object-fit: contain;
+}
+
+.ProductPhotos .main-photo {
+    width: 464px;
+    height: 404px;
+    gap: 10px;
+}
+
+.ProductPhotos .main-photo img {
+    width: 400px;
+    height: 404px;
+    margin-top: 8px;
+    margin-left: 16px;
+    object-fit: contain;
+}
+
+.ProductPhotos .left img:hover {
+   border: 1px solid #3483FA;
+}

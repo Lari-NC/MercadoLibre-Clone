@@ -1,0 +1,14 @@
+.InputSelectWithName {
+    width: 381px;
+    height: 59px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.InputSelectWithName span {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    text-align: left;
+}

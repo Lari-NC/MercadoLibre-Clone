@@ -1,0 +1,48 @@
+.SearchBar {
+    display: flex;
+    align-items: center; 
+    margin-left: 20px;
+    position: relative;
+    margin: 20px 0;
+}
+
+.SearchBar input {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    width: 500px;
+    height: 32px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.SearchBar input::placeholder {
+    position: relative;
+    top: -2px;
+}
+
+.SearchBar button {
+    height: 20px;
+    position: absolute;
+    right: -34px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-left: 1px solid rgba(0, 0, 0, 0.6);
+    padding-left: 10px;
+}
+
+.SearchBar button img {
+    width: 19px;
+    height: 19px;
+    transform: translateY(-5px);
+}
+
+.SearchBar button:hover img {
+    opacity: 0.8;
+}
+
+.SearchBar input:focus {
+    outline: none;
+}
